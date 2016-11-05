@@ -1,0 +1,24 @@
+{
+  "name": "css-framework",
+  "version": "1.0.0",
+  "description": "Framework in CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManrajGrover/BasicCSSFramework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManrajGrover/BasicCSSFramework/issues"
+  },
+  "homepage": "https://github.com/ManrajGrover/BasicCSSFramework#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-lint": "^1.2.0"
+  }
+}
