@@ -5,3 +5,7 @@ This is a basic CSS Frameowork currently under development. Basic Setup for SCSS
 
 1. Download the zip file.
 2. Copy `framework.css` in dist folder into your project.
+
+## Follow progress on Github
+
+You can follow progress on Github by clicking [here](https://github.com/ManrajGrover/BasicCSSFramework)
