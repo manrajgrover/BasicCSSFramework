@@ -1,0 +1,37 @@
+@import 'globals/variables';
+@import 'partials/extends';
+
+.navbar {
+
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: $very-light-grey;
+  @extend %vert-middle;
+
+  img {
+    @extend %float-left;
+    padding: 10px 20px;
+    width: 25px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .inline {
+    display: inline-block;
+  }
+
+  .navbar-left {
+    @extend %float-left;
+  }
+
+  .navbar-right {
+    @extend %float-right;
+  }
+  
+}

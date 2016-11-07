@@ -1,0 +1,12 @@
+$columns: 12;
+$grid-spacing: 3%;
+
+@mixin col-x-list {
+  @for $i from 1 through $columns {
+    .col-#{$i} {
+      $initial: ($columns / $i);
+      $multiplier:  ( $columns - $i ) / $columns;
+      width: (100% / $initial) - ($grid-spacing * $multiplier);
+    }
+  }
+}

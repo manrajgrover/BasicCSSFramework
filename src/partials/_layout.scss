@@ -1,0 +1,39 @@
+$grid-spacing: 3%;
+
+%clearfix:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+ 
+.row {
+  @extend %clearfix;
+
+  & + & {
+    margin-top: $grid-spacing;
+  }
+}
+ 
+[class^="col-"] {
+  float:left;
+  margin-right:$grid-spacing;
+  -webkit-box-sizing:border-box; 
+  -moz-box-sizing:border-box; 
+  box-sizing:border-box;
+
+  &:last-child {
+      margin-right: 0%;
+  }
+}
+
+@include col-x-list;
+
+%vert-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+%horz-center {
+  text-align: center;
+}
