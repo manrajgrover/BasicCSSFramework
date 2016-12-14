@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Framework in CSS",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "copy": "cp -r dist sample/",
+    "serve": "cd sample && serve",
+    "test": "npm run build && npm run copy && npm run serve"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^2.3.2",
-    "gulp-sass-lint": "^1.2.0"
+    "gulp-sass-lint": "^1.2.0",
+    "serve": "2.0.0"
   }
 }
