@@ -2,6 +2,7 @@
   "name": "css-framework",
   "version": "1.0.0",
   "description": "Framework in CSS",
+  "main": "index.js",
   "scripts": {
     "build": "gulp",
     "copy": "cp -r dist sample/",
@@ -12,8 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/ManrajGrover/BasicCSSFramework.git"
   },
-  "author": "Manraj Singh <manrajsinghgrover@gmail.com> (http://manrajsingh.in)",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ManrajGrover/BasicCSSFramework/issues"
   },
