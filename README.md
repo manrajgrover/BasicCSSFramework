@@ -1,4 +1,4 @@
-# BasicCSSFramework[*currently under development*]
+# BasicCSSFramework [*currently under development*]
 This is a basic CSS Frameowork currently under development. Basic Setup for SCSS using Gulp is completed. Work is still under progress for the features required for the page.
 
 ## Installation
