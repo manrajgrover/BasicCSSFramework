@@ -9,3 +9,7 @@ This is a basic CSS Frameowork currently under development. Basic Setup for SCSS
 ## Follow progress on Github
 
 You can follow progress on Github by clicking [here](https://github.com/ManrajGrover/BasicCSSFramework)
+
+## License
+
+[MIT](https://github.com/ManrajGrover/BasicCSSFramework/blob/master/LICENSE) © Manraj Singh
